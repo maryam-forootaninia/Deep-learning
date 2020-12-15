@@ -1,0 +1,36 @@
+Loading Train Dataset
+Loading Test Dataset
+Loading Val Dataset
+Downloading: "https://download.pytorch.org/models/ig_resnext101_32x48-3e41cc8a.pth" to /root/.cache/torch/hub/checkpoints/ig_resnext101_32x48-3e41cc8a.pth
+100% 3.09G/3.09G [01:11<00:00, 46.1MB/s]
+  + Number of params: 828417740
+Traceback (most recent call last):
+  File "main2.py", line 366, in <module>
+    main()
+  File "main2.py", line 171, in main
+    train(train_loader, tnet, criterion, optimizer, epoch)
+  File "main2.py", line 202, in train
+    dista, distb, mask_norm, embed_norm, mask_embed_norm = tnet(data1, data2, data3, c)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/content/drive/MyDrive/Fall 2020/CSCI 5980/Learning-Similarity-Conditions/tripletnet.py", line 31, in forward
+    general_x = self.embeddingnet.embeddingnet(x)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/content/drive/MyDrive/Fall 2020/CSCI 5980/Learning-Similarity-Conditions/Res.py", line 212, in forward
+    x = self.layer3(x)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/content/drive/MyDrive/Fall 2020/CSCI 5980/Learning-Similarity-Conditions/Res.py", line 108, in forward
+    out = self.bn1(out)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/batchnorm.py", line 136, in forward
+    self.weight, self.bias, bn_training, exponential_average_factor, self.eps)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py", line 2058, in batch_norm
+    training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: CUDA out of memory. Tried to allocate 442.00 MiB (GPU 0; 15.90 GiB total capacity; 14.49 GiB already allocated; 371.06 MiB free; 14.72 GiB reserved in total by PyTorch)

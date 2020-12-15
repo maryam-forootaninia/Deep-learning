@@ -1,0 +1,212 @@
+Train Epoch: 1 [0/100000]	Loss: 0.1826 (0.1826) 	Acc: 65.62% (65.62%) 	Emb_Norm: 0.98 (0.98)
+Train Epoch: 1 [9600/100000]	Loss: 0.1536 (0.1510) 	Acc: 66.67% (66.35%) 	Emb_Norm: 0.65 (0.80)
+Train Epoch: 1 [19200/100000]	Loss: 0.1127 (0.1403) 	Acc: 73.96% (69.20%) 	Emb_Norm: 0.58 (0.71)
+Train Epoch: 1 [28800/100000]	Loss: 0.1131 (0.1324) 	Acc: 79.17% (71.13%) 	Emb_Norm: 0.62 (0.67)
+Train Epoch: 1 [38400/100000]	Loss: 0.0992 (0.1256) 	Acc: 77.08% (72.84%) 	Emb_Norm: 0.61 (0.66)
+Train Epoch: 1 [48000/100000]	Loss: 0.0825 (0.1191) 	Acc: 81.25% (74.59%) 	Emb_Norm: 0.62 (0.65)
+Train Epoch: 1 [57600/100000]	Loss: 0.0769 (0.1132) 	Acc: 88.54% (76.16%) 	Emb_Norm: 0.57 (0.64)
+Train Epoch: 1 [67200/100000]	Loss: 0.0859 (0.1076) 	Acc: 77.08% (77.60%) 	Emb_Norm: 0.57 (0.63)
+Train Epoch: 1 [76800/100000]	Loss: 0.1226 (0.1029) 	Acc: 69.79% (78.77%) 	Emb_Norm: 0.60 (0.62)
+Train Epoch: 1 [86400/100000]	Loss: 0.1020 (0.0982) 	Acc: 75.00% (79.93%) 	Emb_Norm: 0.59 (0.62)
+Train Epoch: 1 [96000/100000]	Loss: 0.0385 (0.0944) 	Acc: 94.79% (80.87%) 	Emb_Norm: 0.59 (0.62)
+
+Test set: Average loss: 0.0891, Accuracy: 82.25%
+
+Train Epoch: 2 [0/100000]	Loss: 0.0508 (0.0508) 	Acc: 89.58% (89.58%) 	Emb_Norm: 0.58 (0.58)
+Train Epoch: 2 [9600/100000]	Loss: 0.0054 (0.0454) 	Acc: 100.00% (92.80%) 	Emb_Norm: 0.58 (0.60)
+Train Epoch: 2 [19200/100000]	Loss: 0.0047 (0.0447) 	Acc: 98.96% (92.67%) 	Emb_Norm: 0.57 (0.59)
+Train Epoch: 2 [28800/100000]	Loss: 0.0420 (0.0433) 	Acc: 92.71% (92.77%) 	Emb_Norm: 0.58 (0.59)
+Train Epoch: 2 [38400/100000]	Loss: 0.0485 (0.0423) 	Acc: 92.71% (92.80%) 	Emb_Norm: 0.57 (0.58)
+Train Epoch: 2 [48000/100000]	Loss: 0.0047 (0.0402) 	Acc: 100.00% (93.28%) 	Emb_Norm: 0.58 (0.58)
+Train Epoch: 2 [57600/100000]	Loss: 0.1624 (0.0395) 	Acc: 58.33% (93.35%) 	Emb_Norm: 0.56 (0.58)
+Train Epoch: 2 [67200/100000]	Loss: 0.0050 (0.0395) 	Acc: 98.96% (93.32%) 	Emb_Norm: 0.60 (0.58)
+Train Epoch: 2 [76800/100000]	Loss: 0.0000 (0.0381) 	Acc: 100.00% (93.64%) 	Emb_Norm: 0.59 (0.58)
+Train Epoch: 2 [86400/100000]	Loss: 0.0373 (0.0379) 	Acc: 97.92% (93.60%) 	Emb_Norm: 0.59 (0.59)
+Train Epoch: 2 [96000/100000]	Loss: 0.0140 (0.0371) 	Acc: 97.92% (93.76%) 	Emb_Norm: 0.57 (0.59)
+
+Test set: Average loss: 0.0773, Accuracy: 84.21%
+
+Train Epoch: 3 [0/100000]	Loss: 0.0368 (0.0368) 	Acc: 95.83% (95.83%) 	Emb_Norm: 0.57 (0.57)
+Train Epoch: 3 [9600/100000]	Loss: 0.0000 (0.0233) 	Acc: 100.00% (95.92%) 	Emb_Norm: 0.58 (0.56)
+Train Epoch: 3 [19200/100000]	Loss: 0.0367 (0.0275) 	Acc: 93.75% (95.44%) 	Emb_Norm: 0.54 (0.56)
+Train Epoch: 3 [28800/100000]	Loss: 0.0717 (0.0294) 	Acc: 86.46% (95.05%) 	Emb_Norm: 0.56 (0.57)
+Train Epoch: 3 [38400/100000]	Loss: 0.0599 (0.0288) 	Acc: 84.38% (95.07%) 	Emb_Norm: 0.55 (0.57)
+Train Epoch: 3 [48000/100000]	Loss: 0.0045 (0.0273) 	Acc: 100.00% (95.33%) 	Emb_Norm: 0.56 (0.57)
+Train Epoch: 3 [57600/100000]	Loss: 0.0008 (0.0273) 	Acc: 100.00% (95.29%) 	Emb_Norm: 0.58 (0.56)
+Train Epoch: 3 [67200/100000]	Loss: 0.0809 (0.0268) 	Acc: 89.58% (95.39%) 	Emb_Norm: 0.57 (0.56)
+Train Epoch: 3 [76800/100000]	Loss: 0.0015 (0.0275) 	Acc: 100.00% (95.25%) 	Emb_Norm: 0.55 (0.56)
+Train Epoch: 3 [86400/100000]	Loss: 0.0112 (0.0274) 	Acc: 98.96% (95.27%) 	Emb_Norm: 0.52 (0.56)
+Train Epoch: 3 [96000/100000]	Loss: 0.0007 (0.0271) 	Acc: 100.00% (95.32%) 	Emb_Norm: 0.59 (0.56)
+
+Test set: Average loss: 0.0893, Accuracy: 80.92%
+
+Train Epoch: 4 [0/100000]	Loss: 0.0000 (0.0000) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.58 (0.58)
+Train Epoch: 4 [9600/100000]	Loss: 0.0062 (0.0230) 	Acc: 98.96% (96.49%) 	Emb_Norm: 0.54 (0.55)
+Train Epoch: 4 [19200/100000]	Loss: 0.0025 (0.0237) 	Acc: 98.96% (96.25%) 	Emb_Norm: 0.56 (0.55)
+Train Epoch: 4 [28800/100000]	Loss: 0.0000 (0.0228) 	Acc: 100.00% (96.36%) 	Emb_Norm: 0.59 (0.56)
+Train Epoch: 4 [38400/100000]	Loss: 0.0000 (0.0228) 	Acc: 100.00% (96.31%) 	Emb_Norm: 0.55 (0.56)
+Train Epoch: 4 [48000/100000]	Loss: 0.0530 (0.0242) 	Acc: 87.50% (96.07%) 	Emb_Norm: 0.55 (0.56)
+Train Epoch: 4 [57600/100000]	Loss: 0.0272 (0.0240) 	Acc: 95.83% (96.08%) 	Emb_Norm: 0.53 (0.56)
+Train Epoch: 4 [67200/100000]	Loss: 0.0140 (0.0236) 	Acc: 98.96% (96.11%) 	Emb_Norm: 0.55 (0.56)
+Train Epoch: 4 [76800/100000]	Loss: 0.0000 (0.0233) 	Acc: 100.00% (96.13%) 	Emb_Norm: 0.54 (0.56)
+Train Epoch: 4 [86400/100000]	Loss: 0.0060 (0.0233) 	Acc: 100.00% (96.16%) 	Emb_Norm: 0.51 (0.55)
+Train Epoch: 4 [96000/100000]	Loss: 0.0662 (0.0235) 	Acc: 85.42% (96.13%) 	Emb_Norm: 0.50 (0.55)
+
+Test set: Average loss: 0.0944, Accuracy: 84.88%
+
+Train Epoch: 5 [0/100000]	Loss: 0.0038 (0.0038) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.56 (0.56)
+Train Epoch: 5 [9600/100000]	Loss: 0.0006 (0.0212) 	Acc: 100.00% (96.88%) 	Emb_Norm: 0.55 (0.54)
+Train Epoch: 5 [19200/100000]	Loss: 0.0016 (0.0221) 	Acc: 100.00% (96.46%) 	Emb_Norm: 0.54 (0.54)
+Train Epoch: 5 [28800/100000]	Loss: 0.0097 (0.0216) 	Acc: 100.00% (96.64%) 	Emb_Norm: 0.53 (0.54)
+Train Epoch: 5 [38400/100000]	Loss: 0.0000 (0.0217) 	Acc: 100.00% (96.57%) 	Emb_Norm: 0.53 (0.54)
+Train Epoch: 5 [48000/100000]	Loss: 0.0042 (0.0206) 	Acc: 100.00% (96.74%) 	Emb_Norm: 0.51 (0.54)
+Train Epoch: 5 [57600/100000]	Loss: 0.0152 (0.0204) 	Acc: 97.92% (96.75%) 	Emb_Norm: 0.54 (0.54)
+Train Epoch: 5 [67200/100000]	Loss: 0.0048 (0.0201) 	Acc: 98.96% (96.79%) 	Emb_Norm: 0.53 (0.54)
+Train Epoch: 5 [76800/100000]	Loss: 0.0239 (0.0207) 	Acc: 98.96% (96.66%) 	Emb_Norm: 0.49 (0.54)
+Train Epoch: 5 [86400/100000]	Loss: 0.0113 (0.0204) 	Acc: 98.96% (96.70%) 	Emb_Norm: 0.54 (0.54)
+Train Epoch: 5 [96000/100000]	Loss: 0.0121 (0.0203) 	Acc: 98.96% (96.73%) 	Emb_Norm: 0.52 (0.53)
+
+Test set: Average loss: 0.0643, Accuracy: 87.29%
+
+Train Epoch: 6 [0/100000]	Loss: 0.0000 (0.0000) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.54 (0.54)
+Train Epoch: 6 [9600/100000]	Loss: 0.0039 (0.0186) 	Acc: 100.00% (96.83%) 	Emb_Norm: 0.50 (0.53)
+Train Epoch: 6 [19200/100000]	Loss: 0.0267 (0.0179) 	Acc: 96.88% (97.09%) 	Emb_Norm: 0.51 (0.53)
+Train Epoch: 6 [28800/100000]	Loss: 0.0298 (0.0181) 	Acc: 96.88% (97.09%) 	Emb_Norm: 0.50 (0.52)
+Train Epoch: 6 [38400/100000]	Loss: 0.0038 (0.0187) 	Acc: 98.96% (96.96%) 	Emb_Norm: 0.53 (0.52)
+Train Epoch: 6 [48000/100000]	Loss: 0.0040 (0.0186) 	Acc: 98.96% (96.96%) 	Emb_Norm: 0.55 (0.53)
+Train Epoch: 6 [57600/100000]	Loss: 0.0255 (0.0185) 	Acc: 97.92% (96.95%) 	Emb_Norm: 0.53 (0.53)
+Train Epoch: 6 [67200/100000]	Loss: 0.0798 (0.0182) 	Acc: 82.29% (97.04%) 	Emb_Norm: 0.54 (0.53)
+Train Epoch: 6 [76800/100000]	Loss: 0.0037 (0.0178) 	Acc: 98.96% (97.12%) 	Emb_Norm: 0.56 (0.53)
+Train Epoch: 6 [86400/100000]	Loss: 0.0178 (0.0173) 	Acc: 97.92% (97.21%) 	Emb_Norm: 0.48 (0.53)
+Train Epoch: 6 [96000/100000]	Loss: 0.0021 (0.0172) 	Acc: 98.96% (97.26%) 	Emb_Norm: 0.53 (0.53)
+
+Test set: Average loss: 0.0696, Accuracy: 85.45%
+
+Train Epoch: 7 [0/100000]	Loss: 0.0184 (0.0184) 	Acc: 96.88% (96.88%) 	Emb_Norm: 0.49 (0.49)
+Train Epoch: 7 [9600/100000]	Loss: 0.0000 (0.0137) 	Acc: 100.00% (97.85%) 	Emb_Norm: 0.56 (0.52)
+Train Epoch: 7 [19200/100000]	Loss: 0.0000 (0.0146) 	Acc: 100.00% (97.64%) 	Emb_Norm: 0.51 (0.51)
+Train Epoch: 7 [28800/100000]	Loss: 0.0020 (0.0156) 	Acc: 100.00% (97.37%) 	Emb_Norm: 0.51 (0.52)
+Train Epoch: 7 [38400/100000]	Loss: 0.0307 (0.0147) 	Acc: 93.75% (97.56%) 	Emb_Norm: 0.51 (0.51)
+Train Epoch: 7 [48000/100000]	Loss: 0.0030 (0.0153) 	Acc: 100.00% (97.49%) 	Emb_Norm: 0.50 (0.52)
+Train Epoch: 7 [57600/100000]	Loss: 0.0101 (0.0154) 	Acc: 97.92% (97.52%) 	Emb_Norm: 0.49 (0.52)
+Train Epoch: 7 [67200/100000]	Loss: 0.0075 (0.0158) 	Acc: 100.00% (97.45%) 	Emb_Norm: 0.56 (0.52)
+Train Epoch: 7 [76800/100000]	Loss: 0.0000 (0.0155) 	Acc: 100.00% (97.53%) 	Emb_Norm: 0.52 (0.52)
+Train Epoch: 7 [86400/100000]	Loss: 0.0001 (0.0151) 	Acc: 100.00% (97.60%) 	Emb_Norm: 0.54 (0.52)
+Train Epoch: 7 [96000/100000]	Loss: 0.0245 (0.0156) 	Acc: 95.83% (97.51%) 	Emb_Norm: 0.51 (0.52)
+
+Test set: Average loss: 0.0606, Accuracy: 88.07%
+
+Train Epoch: 8 [0/100000]	Loss: 0.0091 (0.0091) 	Acc: 98.96% (98.96%) 	Emb_Norm: 0.49 (0.49)
+Train Epoch: 8 [9600/100000]	Loss: 0.0000 (0.0125) 	Acc: 100.00% (98.34%) 	Emb_Norm: 0.52 (0.52)
+Train Epoch: 8 [19200/100000]	Loss: 0.0118 (0.0135) 	Acc: 98.96% (98.02%) 	Emb_Norm: 0.50 (0.51)
+Train Epoch: 8 [28800/100000]	Loss: 0.0637 (0.0128) 	Acc: 86.46% (98.24%) 	Emb_Norm: 0.47 (0.51)
+Train Epoch: 8 [38400/100000]	Loss: 0.0162 (0.0139) 	Acc: 96.88% (98.00%) 	Emb_Norm: 0.48 (0.50)
+Train Epoch: 8 [48000/100000]	Loss: 0.0015 (0.0147) 	Acc: 100.00% (97.81%) 	Emb_Norm: 0.51 (0.51)
+Train Epoch: 8 [57600/100000]	Loss: 0.0000 (0.0143) 	Acc: 100.00% (97.86%) 	Emb_Norm: 0.51 (0.51)
+Train Epoch: 8 [67200/100000]	Loss: 0.0215 (0.0142) 	Acc: 100.00% (97.88%) 	Emb_Norm: 0.50 (0.51)
+Train Epoch: 8 [76800/100000]	Loss: 0.0000 (0.0141) 	Acc: 100.00% (97.91%) 	Emb_Norm: 0.55 (0.51)
+Train Epoch: 8 [86400/100000]	Loss: 0.1068 (0.0144) 	Acc: 75.00% (97.84%) 	Emb_Norm: 0.50 (0.51)
+Train Epoch: 8 [96000/100000]	Loss: 0.0000 (0.0143) 	Acc: 100.00% (97.85%) 	Emb_Norm: 0.52 (0.51)
+
+Test set: Average loss: 0.0635, Accuracy: 88.12%
+
+Train Epoch: 9 [0/100000]	Loss: 0.0005 (0.0005) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.50 (0.50)
+Train Epoch: 9 [9600/100000]	Loss: 0.0011 (0.0133) 	Acc: 100.00% (98.04%) 	Emb_Norm: 0.52 (0.49)
+Train Epoch: 9 [19200/100000]	Loss: 0.0028 (0.0147) 	Acc: 100.00% (97.80%) 	Emb_Norm: 0.52 (0.50)
+Train Epoch: 9 [28800/100000]	Loss: 0.0000 (0.0140) 	Acc: 100.00% (97.83%) 	Emb_Norm: 0.52 (0.50)
+Train Epoch: 9 [38400/100000]	Loss: 0.0000 (0.0126) 	Acc: 100.00% (98.08%) 	Emb_Norm: 0.46 (0.50)
+Train Epoch: 9 [48000/100000]	Loss: 0.0354 (0.0133) 	Acc: 92.71% (97.95%) 	Emb_Norm: 0.50 (0.50)
+Train Epoch: 9 [57600/100000]	Loss: 0.0015 (0.0128) 	Acc: 100.00% (98.06%) 	Emb_Norm: 0.49 (0.50)
+Train Epoch: 9 [67200/100000]	Loss: 0.0000 (0.0125) 	Acc: 100.00% (98.12%) 	Emb_Norm: 0.50 (0.50)
+Train Epoch: 9 [76800/100000]	Loss: 0.0257 (0.0122) 	Acc: 96.88% (98.18%) 	Emb_Norm: 0.50 (0.49)
+Train Epoch: 9 [86400/100000]	Loss: 0.0063 (0.0126) 	Acc: 100.00% (98.12%) 	Emb_Norm: 0.48 (0.49)
+Train Epoch: 9 [96000/100000]	Loss: 0.0070 (0.0128) 	Acc: 98.96% (98.07%) 	Emb_Norm: 0.49 (0.50)
+
+Test set: Average loss: 0.0596, Accuracy: 88.52%
+
+Train Epoch: 10 [0/100000]	Loss: 0.0000 (0.0000) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.51 (0.51)
+Train Epoch: 10 [9600/100000]	Loss: 0.0022 (0.0127) 	Acc: 100.00% (97.97%) 	Emb_Norm: 0.50 (0.50)
+Train Epoch: 10 [19200/100000]	Loss: 0.0030 (0.0129) 	Acc: 100.00% (98.05%) 	Emb_Norm: 0.48 (0.50)
+Train Epoch: 10 [28800/100000]	Loss: 0.0067 (0.0126) 	Acc: 100.00% (98.14%) 	Emb_Norm: 0.54 (0.50)
+Train Epoch: 10 [38400/100000]	Loss: 0.0110 (0.0132) 	Acc: 98.96% (98.01%) 	Emb_Norm: 0.49 (0.50)
+Train Epoch: 10 [48000/100000]	Loss: 0.0413 (0.0128) 	Acc: 89.58% (98.08%) 	Emb_Norm: 0.47 (0.50)
+Train Epoch: 10 [57600/100000]	Loss: 0.0000 (0.0128) 	Acc: 100.00% (98.11%) 	Emb_Norm: 0.49 (0.50)
+Train Epoch: 10 [67200/100000]	Loss: 0.0321 (0.0125) 	Acc: 95.83% (98.16%) 	Emb_Norm: 0.50 (0.50)
+Train Epoch: 10 [76800/100000]	Loss: 0.0638 (0.0123) 	Acc: 88.54% (98.18%) 	Emb_Norm: 0.48 (0.50)
+Train Epoch: 10 [86400/100000]	Loss: 0.0052 (0.0121) 	Acc: 100.00% (98.23%) 	Emb_Norm: 0.50 (0.50)
+Train Epoch: 10 [96000/100000]	Loss: 0.0380 (0.0123) 	Acc: 91.67% (98.19%) 	Emb_Norm: 0.46 (0.50)
+
+Test set: Average loss: 0.0627, Accuracy: 88.37%
+
+Train Epoch: 11 [0/100000]	Loss: 0.0053 (0.0053) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.49 (0.49)
+Train Epoch: 11 [9600/100000]	Loss: 0.0028 (0.0125) 	Acc: 100.00% (98.05%) 	Emb_Norm: 0.50 (0.48)
+Train Epoch: 11 [19200/100000]	Loss: 0.0000 (0.0105) 	Acc: 100.00% (98.48%) 	Emb_Norm: 0.51 (0.48)
+Train Epoch: 11 [28800/100000]	Loss: 0.0453 (0.0112) 	Acc: 92.71% (98.39%) 	Emb_Norm: 0.48 (0.48)
+Train Epoch: 11 [38400/100000]	Loss: 0.0000 (0.0104) 	Acc: 100.00% (98.53%) 	Emb_Norm: 0.48 (0.48)
+Train Epoch: 11 [48000/100000]	Loss: 0.0019 (0.0108) 	Acc: 100.00% (98.48%) 	Emb_Norm: 0.47 (0.48)
+Train Epoch: 11 [57600/100000]	Loss: 0.0284 (0.0105) 	Acc: 94.79% (98.51%) 	Emb_Norm: 0.45 (0.48)
+Train Epoch: 11 [67200/100000]	Loss: 0.0463 (0.0110) 	Acc: 90.62% (98.42%) 	Emb_Norm: 0.48 (0.48)
+Train Epoch: 11 [76800/100000]	Loss: 0.0048 (0.0108) 	Acc: 98.96% (98.44%) 	Emb_Norm: 0.47 (0.48)
+Train Epoch: 11 [86400/100000]	Loss: 0.0000 (0.0108) 	Acc: 100.00% (98.46%) 	Emb_Norm: 0.44 (0.48)
+Train Epoch: 11 [96000/100000]	Loss: 0.0009 (0.0107) 	Acc: 100.00% (98.48%) 	Emb_Norm: 0.45 (0.48)
+
+Test set: Average loss: 0.0779, Accuracy: 86.99%
+
+Train Epoch: 12 [0/100000]	Loss: 0.0004 (0.0004) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.48 (0.48)
+Train Epoch: 12 [9600/100000]	Loss: 0.0019 (0.0131) 	Acc: 100.00% (98.06%) 	Emb_Norm: 0.47 (0.47)
+Train Epoch: 12 [19200/100000]	Loss: 0.0000 (0.0109) 	Acc: 100.00% (98.50%) 	Emb_Norm: 0.45 (0.47)
+Train Epoch: 12 [28800/100000]	Loss: 0.0019 (0.0100) 	Acc: 100.00% (98.59%) 	Emb_Norm: 0.50 (0.47)
+Train Epoch: 12 [38400/100000]	Loss: 0.0103 (0.0103) 	Acc: 98.96% (98.57%) 	Emb_Norm: 0.50 (0.47)
+Train Epoch: 12 [48000/100000]	Loss: 0.0028 (0.0104) 	Acc: 100.00% (98.57%) 	Emb_Norm: 0.44 (0.47)
+Train Epoch: 12 [57600/100000]	Loss: 0.0017 (0.0098) 	Acc: 100.00% (98.66%) 	Emb_Norm: 0.48 (0.47)
+Train Epoch: 12 [67200/100000]	Loss: 0.0001 (0.0101) 	Acc: 100.00% (98.57%) 	Emb_Norm: 0.47 (0.47)
+Train Epoch: 12 [76800/100000]	Loss: 0.0000 (0.0102) 	Acc: 100.00% (98.54%) 	Emb_Norm: 0.44 (0.47)
+Train Epoch: 12 [86400/100000]	Loss: 0.0000 (0.0101) 	Acc: 100.00% (98.54%) 	Emb_Norm: 0.46 (0.47)
+Train Epoch: 12 [96000/100000]	Loss: 0.0026 (0.0105) 	Acc: 100.00% (98.48%) 	Emb_Norm: 0.45 (0.47)
+
+Test set: Average loss: 0.0591, Accuracy: 88.34%
+
+Train Epoch: 13 [0/100000]	Loss: 0.0000 (0.0000) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.49 (0.49)
+Train Epoch: 13 [9600/100000]	Loss: 0.0256 (0.0120) 	Acc: 95.83% (98.17%) 	Emb_Norm: 0.45 (0.47)
+Train Epoch: 13 [19200/100000]	Loss: 0.0283 (0.0119) 	Acc: 96.88% (98.23%) 	Emb_Norm: 0.45 (0.47)
+Train Epoch: 13 [28800/100000]	Loss: 0.0195 (0.0106) 	Acc: 96.88% (98.46%) 	Emb_Norm: 0.48 (0.47)
+Train Epoch: 13 [38400/100000]	Loss: 0.0000 (0.0094) 	Acc: 100.00% (98.62%) 	Emb_Norm: 0.48 (0.47)
+Train Epoch: 13 [48000/100000]	Loss: 0.0009 (0.0091) 	Acc: 100.00% (98.66%) 	Emb_Norm: 0.45 (0.46)
+Train Epoch: 13 [57600/100000]	Loss: 0.0105 (0.0094) 	Acc: 97.92% (98.60%) 	Emb_Norm: 0.43 (0.46)
+Train Epoch: 13 [67200/100000]	Loss: 0.0000 (0.0100) 	Acc: 100.00% (98.51%) 	Emb_Norm: 0.44 (0.46)
+Train Epoch: 13 [76800/100000]	Loss: 0.0003 (0.0101) 	Acc: 100.00% (98.51%) 	Emb_Norm: 0.48 (0.46)
+Train Epoch: 13 [86400/100000]	Loss: 0.0051 (0.0102) 	Acc: 98.96% (98.47%) 	Emb_Norm: 0.45 (0.46)
+Train Epoch: 13 [96000/100000]	Loss: 0.0043 (0.0103) 	Acc: 100.00% (98.45%) 	Emb_Norm: 0.45 (0.46)
+
+Test set: Average loss: 0.0573, Accuracy: 88.78%
+
+Train Epoch: 14 [0/100000]	Loss: 0.0011 (0.0011) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.44 (0.44)
+Train Epoch: 14 [9600/100000]	Loss: 0.0009 (0.0078) 	Acc: 100.00% (98.76%) 	Emb_Norm: 0.46 (0.45)
+Train Epoch: 14 [19200/100000]	Loss: 0.0080 (0.0086) 	Acc: 98.96% (98.69%) 	Emb_Norm: 0.41 (0.45)
+Train Epoch: 14 [28800/100000]	Loss: 0.0000 (0.0095) 	Acc: 100.00% (98.64%) 	Emb_Norm: 0.45 (0.45)
+Train Epoch: 14 [38400/100000]	Loss: 0.0018 (0.0103) 	Acc: 100.00% (98.46%) 	Emb_Norm: 0.47 (0.45)
+Train Epoch: 14 [48000/100000]	Loss: 0.0116 (0.0103) 	Acc: 98.96% (98.50%) 	Emb_Norm: 0.45 (0.45)
+Train Epoch: 14 [57600/100000]	Loss: 0.0000 (0.0094) 	Acc: 100.00% (98.62%) 	Emb_Norm: 0.44 (0.45)
+Train Epoch: 14 [67200/100000]	Loss: 0.0000 (0.0094) 	Acc: 100.00% (98.62%) 	Emb_Norm: 0.46 (0.45)
+Train Epoch: 14 [76800/100000]	Loss: 0.0000 (0.0091) 	Acc: 100.00% (98.68%) 	Emb_Norm: 0.45 (0.45)
+Train Epoch: 14 [86400/100000]	Loss: 0.0230 (0.0088) 	Acc: 96.88% (98.72%) 	Emb_Norm: 0.51 (0.45)
+Train Epoch: 14 [96000/100000]	Loss: 0.0083 (0.0092) 	Acc: 98.96% (98.66%) 	Emb_Norm: 0.44 (0.45)
+
+Test set: Average loss: 0.0531, Accuracy: 89.53%
+
+Train Epoch: 15 [0/100000]	Loss: 0.0000 (0.0000) 	Acc: 100.00% (100.00%) 	Emb_Norm: 0.51 (0.51)
+Train Epoch: 15 [9600/100000]	Loss: 0.0112 (0.0094) 	Acc: 97.92% (98.61%) 	Emb_Norm: 0.43 (0.46)
+Train Epoch: 15 [19200/100000]	Loss: 0.0160 (0.0096) 	Acc: 97.92% (98.59%) 	Emb_Norm: 0.43 (0.45)
+Train Epoch: 15 [28800/100000]	Loss: 0.0094 (0.0096) 	Acc: 100.00% (98.61%) 	Emb_Norm: 0.45 (0.45)
+Train Epoch: 15 [38400/100000]	Loss: 0.0000 (0.0092) 	Acc: 100.00% (98.69%) 	Emb_Norm: 0.45 (0.45)
+Train Epoch: 15 [48000/100000]	Loss: 0.0079 (0.0092) 	Acc: 98.96% (98.67%) 	Emb_Norm: 0.40 (0.45)
+Train Epoch: 15 [57600/100000]	Loss: 0.0037 (0.0092) 	Acc: 100.00% (98.66%) 	Emb_Norm: 0.41 (0.45)
+Train Epoch: 15 [67200/100000]	Loss: 0.0149 (0.0089) 	Acc: 96.88% (98.72%) 	Emb_Norm: 0.43 (0.45)
+Train Epoch: 15 [76800/100000]	Loss: 0.0007 (0.0089) 	Acc: 100.00% (98.73%) 	Emb_Norm: 0.44 (0.45)
+Train Epoch: 15 [86400/100000]	Loss: 0.0141 (0.0090) 	Acc: 97.92% (98.70%) 	Emb_Norm: 0.45 (0.45)
+Train Epoch: 15 [96000/100000]	Loss: 0.0000 (0.0087) 	Acc: 100.00% (98.74%) 	Emb_Norm: 0.46 (0.45)
+
+Test set: Average loss: 0.0550, Accuracy: 88.97%
+
+
+Test set: Average loss: 0.0528, Accuracy: 89.67%

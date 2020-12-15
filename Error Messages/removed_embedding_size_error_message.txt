@@ -1,0 +1,30 @@
+Loading Train Dataset
+Loading Test Dataset
+Loading Val Dataset
+  + Number of params: 25563596
+Traceback (most recent call last):
+  File "main2.py", line 365, in <module>
+    main()
+  File "main2.py", line 170, in main
+    train(train_loader, tnet, criterion, optimizer, epoch)
+  File "main2.py", line 201, in train
+    dista, distb, mask_norm, embed_norm, mask_embed_norm = tnet(data1, data2, data3, c)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/content/drive/My Drive/Fall 2020/CSCI 5980/Learning-Similarity-Conditions/tripletnet.py", line 44, in forward
+    weights_xy = self.concept_branch(feat)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/content/drive/My Drive/Fall 2020/CSCI 5980/Learning-Similarity-Conditions/tripletnet.py", line 14, in forward
+    x = self.fc1(x)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/linear.py", line 93, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py", line 1690, in linear
+    ret = torch.addmm(bias, input, weight.t())
+RuntimeError: mat1 dim 1 must match mat2 dim 0
