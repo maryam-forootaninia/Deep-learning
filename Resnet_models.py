@@ -31,10 +31,19 @@ model_urls = {
 }
 
 
-def conv3x3(in_planes, out_planes, stride=1):
-    "3x3 convolution with padding"
+# def conv3x3(in_planes, out_planes, stride=1):
+#     "3x3 convolution with padding"
+#     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
+#                      padding=1, bias=False)
+
+def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
+    """3x3 convolution with padding"""
     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
-                     padding=1, bias=False)
+                     padding=dilation, groups=groups, bias=False, dilation=dilation)
+
+def conv1x1(in_planes, out_planes, stride=1):
+    """1x1 convolution"""
+    return nn.Conv2d(in_planes, out_planes, kernel_size=1, stride=stride, bias=False)
 
 
 class BasicBlock(nn.Module):
@@ -225,7 +234,7 @@ def resnet101(pretrained=False, **kwargs):
     Args:
         pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
-    model = ResNet(BasicBlock, [3, 4, 23], **kwargs)
+    model = ResNet(Bottleneck, [3, 4, 23], **kwargs)
     if pretrained:
         state = model.state_dict()
         loaded_state_dict = model_zoo.load_url(model_urls['resnet101'])
@@ -242,7 +251,7 @@ def resnet152(pretrained=False, **kwargs):
     Args:
         pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
-    model = ResNet(BasicBlock, [3, 8, 36], **kwargs)
+    model = ResNet(Bottleneck, [3, 8, 36], **kwargs)
     if pretrained:
         state = model.state_dict()
         loaded_state_dict = model_zoo.load_url(model_urls['resnet152'])
@@ -259,7 +268,7 @@ def resnext50_32x4d(pretrained=False, **kwargs):
     Args:
         pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
-    model = ResNet(BasicBlock, [3, 4, 6], **kwargs)
+    model = ResNet(Bottleneck, [3, 4, 6], **kwargs)
     if pretrained:
         state = model.state_dict()
         loaded_state_dict = model_zoo.load_url(model_urls['resnext50_32x4d'])
@@ -276,7 +285,7 @@ def resnext101_32x8d(pretrained=False, **kwargs):
     Args:
         pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
-    model = ResNet(BasicBlock, [3, 4, 23], **kwargs)
+    model = ResNet(Bottleneck, [3, 4, 23], **kwargs)
     if pretrained:
         state = model.state_dict()
         loaded_state_dict = model_zoo.load_url(model_urls['resnext101_32x8d'])
