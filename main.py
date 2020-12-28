@@ -15,8 +15,6 @@ from tripletnet import CS_Tripletnet
 from visdom import Visdom
 import numpy as np
 import Resnet_18
-import Resnet_50
-import Resnext_50
 import Resnet_models
 from csn import ConditionalSimNet
 

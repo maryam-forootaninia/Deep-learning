@@ -15,14 +15,12 @@ from tripletnet import CS_Tripletnet
 from visdom import Visdom
 import numpy as np
 import Resnet_18
-import Resnet_50
-import Resnext_50
 import Resnet_models
 from csn import ConditionalSimNet
 
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
-parser.add_argument('--batch-size', type=int, default=96, metavar='N',
+parser.add_argument('--batch-size', type=int, default=32, metavar='N',
                     help='input batch size for training (default: 64)')
 parser.add_argument('--epochs', type=int, default=15, metavar='N',
                     help='number of epochs to train (default: 200)')
@@ -112,7 +110,7 @@ def main():
                             transforms.ToTensor(),
                             normalize,
                     ])),
-        batch_size=64, shuffle=True, **kwargs)
+        batch_size=16, shuffle=True, **kwargs)
     print('Loading Val Dataset')
     val_loader = torch.utils.data.DataLoader(
         TripletImageLoader('data', 'ut-zap50k-images', 'filenames.json', 
@@ -123,7 +121,7 @@ def main():
                             transforms.ToTensor(),
                             normalize,
                     ])),
-        batch_size=64, shuffle=True, **kwargs)
+        batch_size=16, shuffle=True, **kwargs)
     
     model = Resnet_models.resnet50(pretrained=True, embedding_size=args.dim_embed)
     csn_model = ConditionalSimNet(model, n_conditions=args.num_concepts, 
